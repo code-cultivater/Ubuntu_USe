@@ -1,3 +1,4 @@
 /mnt/hgfs	虚拟机下的文件共享列表
 /usr/src	需要操作的linux源码目标
+/etc/apt/source.list	更换软件下载源 ，修改完成后  需要sudo apt-get up			date
 
