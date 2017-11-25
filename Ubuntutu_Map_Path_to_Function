@@ -1,20 +1,24 @@
 /mnt/hgfs	虚拟机下的文件共享列表
 /usr/src	需要操作的linux源码目标
 /etc/apt/source.list	更换软件下载源 ，修改完成后  需要sudo apt-get up			date
-deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+signal.h  信号名称列表
 
 
 
 
-/usr/include/linux/signal.h  信号名称列表
 
+
+
+
+阿里云下载源
+                         deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+                        deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+                        deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+                        deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+                        deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+                        deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+                        deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+                        deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+                        deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+                        deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
 
